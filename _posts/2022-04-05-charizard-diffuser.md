@@ -33,7 +33,7 @@ seo:
         Building a personalized birthday present for my friend Kevin!
       keyName: property
     - name: "og:image"
-      value: images/charmander/full-vert.jpg
+      value: images/p/charmander/cover.jpg
       keyName: property
       relativeUrl: true
     - name: "twitter:card"
@@ -44,7 +44,7 @@ seo:
       value: >-
         Building a personalized birthday present for my friend Kevin!
     - name: "twitter:image"
-      value: images/p/charmander/full-vert.jpeg
+      value: images/p/charmander/cover.jpg
       relativeUrl: true
 layout: post
 ---
