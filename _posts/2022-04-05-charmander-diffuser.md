@@ -138,7 +138,7 @@ It was about a week late but Kevin got his present!
 
 Here's some things I learned:
 
-- This print took almost the whole role of filament. So I am better at ballparking filament costs now!
+- This print took almost the whole roll of filament. So I am better at ballparking filament costs now!
 - I learned how to use tree supports! And I'm never going back to normal supports.
 - I learned that rafts are super helpful for keeping tree supports on the plate.
 - Water management is something to consider in design. (Condensation needed a quick fix)
@@ -148,9 +148,6 @@ Here's some things I learned:
 {% include carousel.html height="50" unit="%" duration="10" %}
 
 <style>
-img[alt="charmander diffuser"] {
-    width: 60%;
-}
 img[alt="diffuser model"] {
     width: 60%;
 }
