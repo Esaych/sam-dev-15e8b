@@ -4,43 +4,44 @@ subtitle: >-
   Today I am building a new site with Jekyll and Stackbit. Pretty interesting stuff.
 excerpt: >-
   Today I am building a new site with Jekyll and Stackbit. Pretty interesting stuff.
-date: '2021-03-16'
-thumb_img_path: images/p/portrait.jpg
+date: "2021-03-16"
+img_root: /images/p/jekyll/
+thumb_img_path: images/p/jekyll/portrait.jpg
 thumb_img_alt: Jekyll logo
-content_img_path: images/p/portrait.jpg
+content_img_path: images/p/jekyll/portrait.jpg
 seo:
   title: Welcome to the new blog
   description: >-
     Today I am building a new site with Jekyll and Stackbit. Pretty interesting stuff.
   extra:
-    - name: 'og:type'
+    - name: "og:type"
       value: article
       keyName: property
-    - name: 'og:title'
+    - name: "og:title"
       value: Welcome to the new blog
       keyName: property
-    - name: 'og:description'
+    - name: "og:description"
       value: >-
         Today I am building a new site with Jekyll and Stackbit. Pretty interesting stuff.
       keyName: property
-    - name: 'og:image'
-      value: images/p/portrait.jpg
+    - name: "og:image"
+      value: images/p/jekyll/portrait.jpg
       keyName: property
       relativeUrl: true
-    - name: 'twitter:card'
+    - name: "twitter:card"
       value: summary_large_image
-    - name: 'twitter:title'
+    - name: "twitter:title"
       value: Welcome to the new blog
-    - name: 'twitter:description'
+    - name: "twitter:description"
       value: >-
         Today I am building a new site with Jekyll and Stackbit. Pretty interesting stuff.
-    - name: 'twitter:image'
-      value: images/p/jekyll.jpg
+    - name: "twitter:image"
+      value: images/p/jekyll/jekyll.jpg
       relativeUrl: true
 layout: post
 ---
 
-![Old Website](/images/p/oldwebsite.png)
+![Old Website]({{ page.img_root }}oldwebsite.png)
 
 I'm migrating off of my [old website](https://esaych.github.io/) today, and building a new one to better showcase my
 thought process as I do my fun side projects.
@@ -50,7 +51,7 @@ as a web developer brought it to life. I remember having fun writing the JavaScr
 view vs the desktop view was so complicated that I ended up writing separate webpages entirely based on the size of your window.
 
 Anyways, I have grown out of that site. It was my pre-work life site, which showcased my work in bulk and didn't
-really have any good ways to write about why I did my work. 
+really have any good ways to write about why I did my work.
 
 It's 2021. I've done a lot of projects during quarantine 2021, and I need a site to showcase my work. So here's my new site!
 It's a showcase, and a blog! Still figuring out how I want to format it all, but I do want to share how easy this solution was.
@@ -75,23 +76,24 @@ to render your markup as part of a Github page](https://docs.github.com/en/githu
 What's even better is that you can use many open source website templates which theme your Jekyll site, exactly how you need.
 
 So it's a Tuesday afternoon, I've upgraded my Ruby and gotten Jekyll installed on my Mac and running the beginner website (which by the way is only 4 commands).
-And I'm browsing Jekyll templates. There's so many. 
+And I'm browsing Jekyll templates. There's so many.
 
 Some pretty ones I have to share:
-- [Fjord](https://themes.stackbit.com/demos/fjord/) 
+
+- [Fjord](https://themes.stackbit.com/demos/fjord/)
   - this site!
 - [Creative](https://volny.github.io/creative-theme-jekyll/#)
   - actually kind of wanted this, but project blogging would've had the same issue
-- [Hacker Style](https://akiritsu.github.io/pRoJEct-VeXEd/) 
+- [Hacker Style](https://akiritsu.github.io/pRoJEct-VeXEd/)
   - I personally find this so ugly, but a younger version of me would've picked this one
 - [portfolYOU](https://youssefraafatnasry.github.io/portfolYOU/projects/)
   - Simple, beautiful, but easily feels cluttered.
-  
+
 Anyways, I set my hearts desire on Fjord, and so I threw it into Jekyll with the [jekyll remote theme](https://github.com/benbalter/jekyll-remote-theme) gem.
-That was a mission on its own, and it was beyond annoying that it extracted properly but just didn't copy into my rendered site. 
+That was a mission on its own, and it was beyond annoying that it extracted properly but just didn't copy into my rendered site.
 I kept getting themeless webpages. To troubleshoot, I tried Jekyll with the Creative theme, and it was working fine.
 Nothing I did was making Fjord work. The [git repo](https://github.com/stackbit/stackbit-theme-fjord) had instructions to set it
-up in Stackbit, but I really wanted to move forwards without creating a "Stackbit" account. 
+up in Stackbit, but I really wanted to move forwards without creating a "Stackbit" account.
 
 And so... I finally caved and clicked "Create With Stackbit"
 
@@ -120,11 +122,11 @@ theme and the entire website will move with it.
 
 **Mar 18 Edit:** Sad, Stackbit setup didn't give me permission to my own repo (I suppose this must be a bug). Their support
 wasn't as helpful as I thought it would be.
-I ended up requesting the entire repo get forked into [a repo fully owned by me](https://github.com/Esaych/sam-dev-15e8b). 
+I ended up requesting the entire repo get forked into [a repo fully owned by me](https://github.com/Esaych/sam-dev-15e8b).
 I also figured out that Stackbit integrates with [Netlify](https://www.netlify.com/) to do the Github deployment heavy lifting,
 so I had to adjust the Netify software application to point to my new repository, and finally to get the web IDE
 that Stackbit has, I needed to create a NEW site referring to my own repo in Stackbit. So now I have a duplicate site.
- 
+
 All in all, a workaround which will probably be resolved once Stackbit gets back to me on my support email, but I was impatient.
 
 <style>

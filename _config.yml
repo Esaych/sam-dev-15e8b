@@ -1,11 +1,11 @@
 title: Sam Holmberg
 baseurl: /
-permalink: '/:title/'
+permalink: "/:title/"
 collections:
   posts:
-    permalink: '/posts/:title/'
+    permalink: "/posts/:title/"
 palette: blue
-favicon: '/images/favicon.png'
+favicon: "/images/favicon.png"
 header:
   title: Sam Holmberg
   tagline: Software Engineer
@@ -33,25 +33,25 @@ header:
   has_social: true
   social_links:
     - label: Instagram
-      url: 'https://www.instagram.com/sholmberg_/'
+      url: "https://www.instagram.com/sholmberg_/"
       style: icon
       icon_class: instagram
       new_window: true
     - label: GitHub
-      url: 'https://github.com/Esaych'
+      url: "https://github.com/Esaych"
       style: icon
       icon_class: github
       new_window: true
     - label: LinkedIn
-      url: 'https://www.linkedin.com/in/samuel-holmberg/'
+      url: "https://www.linkedin.com/in/samuel-holmberg/"
       style: icon
       icon_class: linkedin
       new_window: true
 footer:
   content: >-
-    &copy; Stackbit. All rights reserved. This site was created with <a
+    &copy; Stackbit. All rights reserved. I made this site with <a
     href="https://www.stackbit.com/?utm_source=deployed-footer" target="_blank"
-    rel="noopener">Stackbit</a>. Super easy and totally recommend it. Create one
+    rel="noopener">Stackbit</a>. It's easy to edit and I totally recommend it. Create one
     <a
     href="https://app.stackbit.com/create?theme=fjord&utm_source=deployed-footer"
     target="_blank" rel="noopener">for yourself!</a>
@@ -74,4 +74,4 @@ exclude:
   - netlify.toml
   - stackbit-build.sh
   - stackbit-pull.js
-domain: 'https://sam-dev-15e8b.netlify.app'
+domain: "https://sam-dev-15e8b.netlify.app"
