@@ -122,7 +122,7 @@ Here are some of prints coming off the printer:
 
 <h3>Final Assembly</h3>
 
-The last bit was almost trivial. Glued the tail to the base.
+The last bit was almost trivial. Glued the tail to the base. Painted his eyes on!
 
 ![parts]({{ page.img_root }}/parts.jpeg)
 
