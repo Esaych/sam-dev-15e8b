@@ -31,7 +31,7 @@ seo:
 layout: page
 ---
 
-Feel free to reach out for professional opportunities, collaboration, fun, or advice for how to start doing what I do!
+Feel free to reach out for professional opportunities, collaboration, fun, or advice on how to start doing what I do!
 
 <table>
   <tr>
