@@ -33,7 +33,7 @@ header:
   has_social: true
   social_links:
     - label: Instagram
-      url: "https://www.instagram.com/sholmberg_/"
+      url: "https://www.instagram.com/s.holm.berg/"
       style: icon
       icon_class: instagram
       new_window: true
