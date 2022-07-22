@@ -43,7 +43,7 @@ layout: post
 
 ![Old Website]({{ page.img_root }}oldwebsite.png)
 
-I'm migrating off of my [old website](https://esaych.github.io/) today, and building a new one to better showcase my
+I'm migrating off of my [old website](https://esaych.github.io/) today and building a new one to better showcase my
 thought process as I do my fun side projects.
 
 The old website was a fun and beautiful UX design by my friend [Cat Chiang](https://www.linkedin.com/in/cat-chiang/) and my work
@@ -54,7 +54,7 @@ Anyways, I have grown out of that site. It was my pre-work life site, which show
 really have any good ways to write about why I did my work.
 
 It's 2021. I've done a lot of projects during quarantine 2021, and I need a site to showcase my work. So here's my new site!
-It's a showcase, and a blog! Still figuring out how I want to format it all, but I do want to share how easy this solution was.
+It's a showcase and a blog! Still figuring out how I want to format it all, but I do want to share how easy this solution was.
 
 <h3>Github Pages</h3>
 
@@ -63,20 +63,20 @@ It's a showcase, and a blog! Still figuring out how I want to format it all, but
 So my last site was [hosted by Github](https://pages.github.com/). Github provides 1 free site to any user account. You
 can only show static webpages (so no backend allowed), but it's perfect for portfolios or simple websites.
 
-I wanted to keep this cheap hosting solution, so I looked around and found a best fit for Github ~ that led me to Jekyll.
+I wanted to keep this cheap hosting solution, so I looked around and found the best fit for Github ~ which led me to Jekyll.
 
 <h3>Jekyll Static Website Builder</h3>
 
 ![Jekyll](https://miro.medium.com/max/4800/1*B3eU4xOLAB8_BPDh3pExdw.jpeg)
 
-[Jekyll](https://jekyllrb.com/) is amazing as well, because it allows me to write a website up in markup! (which I've gotten very accustomed to
+[Jekyll](https://jekyllrb.com/) is amazing as well because it allows me to write a website up in markup! (which I've gotten very accustomed to
 while writing docs at Amazon). And Jekyll can spin up locally and run on your computer, or be [computed by Github
 to render your markup as part of a Github page](https://docs.github.com/en/github/working-with-github-pages/setting-up-a-github-pages-site-with-jekyll).
 
 What's even better is that you can use many open source website templates which theme your Jekyll site, exactly how you need.
 
 So it's a Tuesday afternoon, I've upgraded my Ruby and gotten Jekyll installed on my Mac and running the beginner website (which by the way is only 4 commands).
-And I'm browsing Jekyll templates. There's so many.
+And I'm browsing Jekyll templates. There are so many.
 
 Some pretty ones I have to share:
 
@@ -89,9 +89,9 @@ Some pretty ones I have to share:
 - [portfolYOU](https://youssefraafatnasry.github.io/portfolYOU/projects/)
   - Simple, beautiful, but easily feels cluttered.
 
-Anyways, I set my hearts desire on Fjord, and so I threw it into Jekyll with the [jekyll remote theme](https://github.com/benbalter/jekyll-remote-theme) gem.
+Anyways, I set my heart's desire on Fjord, and so I threw it into Jekyll with the [jekyll remote theme](https://github.com/benbalter/jekyll-remote-theme) gem.
 That was a mission on its own, and it was beyond annoying that it extracted properly but just didn't copy into my rendered site.
-I kept getting themeless webpages. To troubleshoot, I tried Jekyll with the Creative theme, and it was working fine.
+I kept getting themeless web pages. To troubleshoot, I tried Jekyll with the Creative theme, and it was working fine.
 Nothing I did was making Fjord work. The [git repo](https://github.com/stackbit/stackbit-theme-fjord) had instructions to set it
 up in Stackbit, but I really wanted to move forwards without creating a "Stackbit" account.
 
@@ -102,18 +102,18 @@ And so... I finally caved and clicked "Create With Stackbit"
 ![Stackbit](https://miro.medium.com/max/2400/0*IpqdWIja-rXS0kXG.png)
 
 I was hesitant at first, I had never heard of Stackbit. Once I associated my Github account it created a new website.
-I immediately thought... oh this is another WordPress, or Drupal, or something, and rolled my eyes. But its not!
+I immediately thought... oh this is another WordPress, or Drupal, or something, and rolled my eyes. But it's not!
 
-So when I initialized my site with Stackbit, it actually [made an entire Github repository](https://github.com/stackbit-projects/sam-dev-15e8b)
-using the template, and started my site for me at a strange url: [https://sam-dev-15e8b.netlify.app/](https://sam-dev-15e8b.netlify.app/)
+So when I initialized my site with Stackbit, it [made an entire Github repository](https://github.com/stackbit-projects/sam-dev-15e8b)
+using the template and started my site for me at a strange url: [https://sam-dev-15e8b.netlify.app/](https://sam-dev-15e8b.netlify.app/)
 
-This actually removed the need to do any local work at all, just immediately setup a website, and gave me instructions on how
-to configure my own domain for it. And apparently if you're just creating a blog like me, its 100% FREE.
+This removed the need to do any local work at all, just immediately set up a website, and gave instructions on how
+to configure my domain for it. And, if you're just creating a blog like me, it's 100% FREE.
 
-I played around in the web based IDE they provided, and can completely see the appeal in it. They offer both the web editing view,
-sort of like a WordPress experience (but much less ability to modify site design), and they offer a code editing view.
-Both are pretty nice, and I'll definitely use in the future. But the nicest thing they provided was a "Develop Locally" menu,
-which let me copy paste some commands and have my own local version of the site running in SECONDS.
+I played around with the web-based IDE they provided, and can completely see the appeal in it. They offer both the web editing view,
+sort of like a WordPress experience (but much less the ability to modify site design), and they offer a code editing view.
+Both are pretty nice, and I'll likely use them in the future. But the nicest thing they provided was a "Develop Locally" menu,
+which let me copy-paste some commands and have my local version of the site running in SECONDS.
 
 Honestly, if you have >0 technical experience, I fully recommend Stackbit. Since they don't do any hosting, I'm not worried
 they'll charge me extra one day. We'll see where this leads. But for now, I'm enjoying my new website building experience.
@@ -124,10 +124,10 @@ theme and the entire website will move with it.
 wasn't as helpful as I thought it would be.
 I ended up requesting the entire repo get forked into [a repo fully owned by me](https://github.com/Esaych/sam-dev-15e8b).
 I also figured out that Stackbit integrates with [Netlify](https://www.netlify.com/) to do the Github deployment heavy lifting,
-so I had to adjust the Netify software application to point to my new repository, and finally to get the web IDE
-that Stackbit has, I needed to create a NEW site referring to my own repo in Stackbit. So now I have a duplicate site.
+so I had to adjust the Netlify software application to point to my new repository. Finally, to get the web IDE
+that Stackbit has, I needed to create a NEW site referring to my repo in Stackbit. So now I have a duplicate site.
 
-All in all, a workaround which will probably be resolved once Stackbit gets back to me on my support email, but I was impatient.
+All in all, this workaround will probably be resolved once Stackbit gets back to me on my support email, but I was impatient.
 
 <style>
 .site-header-bg {

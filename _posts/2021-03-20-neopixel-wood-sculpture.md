@@ -52,11 +52,11 @@ layout: post
 
 {% include carousel.html height="50" unit="%" duration="10" %}
 
-I masterminded a crazy final art project for my wood working class at UMD in 2019. I was assigned a task:
+I masterminded a crazy final art project for my woodworking class at UMD in 2019. I was assigned a task:
 
 > Build a beautiful piece of wood working as a self portrait. It must be mixed media, and it must be taller than you. <cite>Professor Foon Sham</cite>
 
-For some reason I only envisioned an art piece that was tall, but not big (Unlike my classmates who went big in every direction).
+For some reason, I only envisioned an art piece that was tall, but not big (Unlike my classmates who went big in every direction).
 I made a plan to integrate my piece with LEDs, an Arduino, and a PIR sensor. It was going to be blue when nobody
 was nearby, but then transition to red when people were detected nearby. This was to reflect my own energy as I am an
 extreme extrovert and the bright red is my energy as I am approached by new people.
@@ -70,11 +70,11 @@ I was disappointed. I had missed some key things:
 1. **The interaction was inconsistent.** I gave up trying to get the PIR sensor working so I just made it work on a basic color loop.
 2. **The wood was unfinished.** No coating, just plywood.
 3. **40% of my LEDs didn't work!** The sculpture had 5 embedded LED rings, but my poor soldering only enabled 2.
-4. **The power draw of the LEDs was too high.** My wires which were too thin to carry the power.
+4. **The power draw of the LEDs was too high.** My wires were too thin to carry the power.
 5. **My soldering was terrible.** The entire thing was haphazardly constructed. When the entire chain of lights was unresponsive, I couldn't easily fix it without
    tearing out all the wiring.
 
-I worked 10 hours the day before it was due, and the last minute effort to get it working left me with sad results.
+I worked 10 hours the day before it was due, and the last-minute effort to get it working left me with sad results.
 I just left this as a bucket list item: One day I would finish it and bring it glory.
 
 _fast-forward -> 2020 pandemic happens, time to finish this..._
@@ -92,19 +92,19 @@ more and now the wood had a decent protective finish on it.
 ![stained wood]({{ page.img_root }}np-2.jpeg)
 
 The joints were filled with some putty, but the putty got discolored after staining, so my girlfriend helped me
-match some paint colors and _correct_ the coloring of the putty. All in all, I was satisfied with the wood sultpure.
+match some paint colors and _correct_ the coloring of the putty. All in all, I was satisfied with the wood sculpture.
 
 <h3>Embedding electronics</h3>
 
-It was time to get to wiring. I originally had 5 [Adafruit NeoPixels](https://www.amazon.com/dp/B00KAE3R1U/), but I did tests and found that not all 5 LED rings worked.
+It was time to get to the wiring. I originally had 5 [Adafruit NeoPixels](https://www.amazon.com/dp/B00KAE3R1U/), but I did tests and found that not all 5 LED rings worked.
 Notice how some LEDs got skipped in my tests? I think maybe during my soldering I fried some LEDs. Who knows.
 
-Eventually I made good solder points and I got 3 neopixels I knew were going to work. So I set out to use 3 in the sculpture.
+Eventually, I made good solder points and I got 3 Neopixels I knew were going to work. So I set out to use 3 in the sculpture.
 
 ![broken]({{ page.img_root }}np-3-broken.gif)
 ![working]({{ page.img_root }}np-3-working.gif)
 
-I 3D printed mounts for the LED rings, and setup a design which let me easily connect power, ground, and signal by wrapping
+I 3D printed mounts for the LED rings and set up a design that let me easily connect power, ground, and signal by wrapping
 bare wire around screws. Tightening those screws got a solid electrical signal, but kept the design modular.
 If anything broke in the future, I'd be able to unscrew and replace these parts without having to rewire the entire sculpture.
 
@@ -116,11 +116,11 @@ the base. Underneath I had (naively) put a naked Raspberry Pi Zero W.
 ![initial wiring]({{ page.img_root }}np-5.jpeg)
 ![base wiring]({{ page.img_root }}np-6.jpeg)
 
-I found out a couple problems based on this simple wiring:
+I found a couple problems based on this simple wiring:
 
 1. Anytime the lights got turned on to 100% brightness, the Raspberry Pi would shut down due to power failure.
    Turns out Raspberry Pi Zero was not able to output enough power to my lights. I had to power 36 LEDs, but the power from the Pi was probably 5V ~1A. (Not enough)
-2. The lights only worked around 50% of the time. Signal was muddy. Turned out the power draw from the lights would create noise
+2. The lights only worked around 50% of the time. The signal was muddy. Turned out the power draw from the lights would create noise
    on the signal line and mess up the commands sent from my python scripts to the NeoPixels.
 3. The Pi Zero was too slow for processing more complicated NeoPixel commands.
 
@@ -129,7 +129,7 @@ So I upgraded to a Pi 3, got a separate power supply, and addressed those wiring
 ![wiring guide]({{ page.img_root }}np-7a.jpeg)
 ![new wiring]({{ page.img_root }}np-7.jpeg)
 
-By this point, I had been fiddling with wires every night for a week and I was definitely fatigued with this entire project.
+By this point, I had been fiddling with wires every night for a week and I was fatigued with this entire project.
 
 I had originally wired all the power, ground, and signal in parallel so I didn't need to worry about a single point of failure
 taking down all the other components, but the Raspberry Pi can only support 1 LED strip at a time, which I thought I could
@@ -137,7 +137,7 @@ be clever with code and thwart the restriction, but it ended up the hardware jus
 I had to rewire the 3 lights into series, and so now I'm doing a hybrid solution with power in parallel and signal in a series.
 
 I also managed to accidentally connect two live wires and blow out the LEDs on my top most ring, so I had to shovel out $10
-for a replacement on Amazon, but since I made it so modular, the repair was just a 5 minute swap out to get it working again.
+for a replacement on Amazon, but since I made it so modular, the repair was just a 5-minute swap out to get it working again.
 
 Now, I had complete control via a python script running on my headless Raspberry Pi and I can write some programs!
 
@@ -176,13 +176,13 @@ And one that I felt helped me know when my family was end their day:
 - 'sunset' or 'night': <span style="background-color:rgb(70,0,132)">[70,0,132]</span>
 
 Given these two settings, I just let them fade between the two colors (temperature, and sky condition) every 30 seconds with a
-very gradual 10 second transition. It's now the default state of my sculpture now, and I think the purple of the night is
+very gradual 10-second transition. It's now the default state of my sculpture now, and I think the purple of the night is
 very calming in the evenings.
 
 ![blue weather]({{ page.img_root }}np-8.jpg)
 ![purple weather]({{ page.img_root }}np-8b.jpg)
 
-_sneak peak: I also made the lights synchronize to our sound system, but [that's another post](/posts/music-wood-sculpture/)!_
+_sneak \_peek_: I* also made the lights synchronize to our sound system, but [that's another post](/posts/music-wood-sculpture/)!*
 
 <style>
 img[alt="stripped clean"] {
