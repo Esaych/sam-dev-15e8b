@@ -148,13 +148,18 @@ Here are some things I learned:
 {% include carousel.html height="50" unit="%" duration="10" %}
 
 <style>
-img[alt="diffuser model"] {
-    width: 60%;
+@media screen and (min-width: 800px) {
+  img[alt="diffuser model"] {
+      width: 60%;
+  }
+  img[alt="art trash"] {
+      width: 60%;
+  }
+  img[alt="caulk"] {
+      width: 50%;
+  }
 }
-img[alt="art trash"] {
-    width: 60%;
-}
-img[alt="caulk"] {
-    width: 50%;
-}
+  .site-header-bg {
+   background-position: 0 25%;
+  }
 </style>

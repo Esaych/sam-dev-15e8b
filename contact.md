@@ -1,7 +1,7 @@
 ---
 title: Get in Touch
 subtitle: Always interested in new connections!
-img_path: images/contact.jpg
+img_path: images/me/hoodie.jpg
 seo:
   title: Get in Touch
   description: This is my contact page
@@ -16,7 +16,7 @@ seo:
       value: This is the contact page
       keyName: property
     - name: "og:image"
-      value: images/contact.jpg
+      value: images/me/hoodie.jpg
       keyName: property
       relativeUrl: true
     - name: "twitter:card"
@@ -26,7 +26,7 @@ seo:
     - name: "twitter:description"
       value: This is the contact page
     - name: "twitter:image"
-      value: images/contact.jpg
+      value: images/me/hoodie.jpg
       relativeUrl: true
 layout: page
 ---
@@ -44,7 +44,7 @@ Feel free to reach out for professional opportunities, collaboration, fun, or ad
   </tr>
 </table>
 
-![Snowboard with me](/images/getintouch.jpg)
+![Snowboard with me](/images/me/getintouch.jpg)
 
 <table>
   

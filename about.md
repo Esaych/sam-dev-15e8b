@@ -1,6 +1,6 @@
 ---
 title: About Me
-img_path: images/about.jpg
+img_path: images/me/seattle.jpg
 seo:
   title: About Me
   description: A page about me and my work
@@ -15,7 +15,7 @@ seo:
       value: A page about me and my work
       keyName: property
     - name: "og:image"
-      value: images/about.jpg
+      value: images/me/seattle.jpg
       keyName: property
       relativeUrl: true
     - name: "twitter:card"
@@ -25,7 +25,7 @@ seo:
     - name: "twitter:description"
       value: A page about me and my work
     - name: "twitter:image"
-      value: images/about.jpg
+      value: images/me/seattle.jpg
       relativeUrl: true
 layout: page
 ---
@@ -33,7 +33,7 @@ layout: page
 <table>
 <tr>
 <td markdown="1">
-![hello I'm Sam](/images/about-portrait.jpg)
+![hello I'm Sam](/images/me/about-portrait.jpg)
 </td>
 
 <td markdown="1">
@@ -81,7 +81,6 @@ If you're interested in reaching out for professional opportunities, or professi
 or view [my resume directly](https://sam.holmberg.dev/resume/Sam_Holmberg.pdf).
 
 <style>
-
 td:first-child {  
   width: 50%;
   padding-right: 5%;
@@ -91,5 +90,7 @@ td {
   border-bottom: none;
   padding-bottom: 0;
 }
-
+.site-header-bg {
+  background-position: 60% 30%;
+}
 </style>

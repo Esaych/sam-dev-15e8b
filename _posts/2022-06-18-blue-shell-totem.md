@@ -159,25 +159,27 @@ Todo for the next festival:
 _FYI: 2022 version with the metal pole is the highlight image of this post under the menu on the left!_
 
 <style>
-img[alt="shell"] {
-    width: 40%;
-}
-img[alt="great totem"] {
-    width: 75%;
-}
-img[alt="design"] {
-    width: 50%;
-}
-img[alt="construct3"] {
-    width: 90%;
-}
-img[alt="litup"] {
-    width: 50%;
-}
-img[alt="powerbank"] {
-    width: 50%;
-}
-img[alt="beyond1"] {
-    width: 50%;
+@media screen and (min-width: 800px) {
+  img[alt="shell"] {
+      width: 40%;
+  }
+  img[alt="great totem"] {
+      width: 75%;
+  }
+  img[alt="design"] {
+      width: 50%;
+  }
+  img[alt="construct3"] {
+      width: 90%;
+  }
+  img[alt="litup"] {
+      width: 50%;
+  }
+  img[alt="powerbank"] {
+      width: 50%;
+  }
+  img[alt="beyond1"] {
+      width: 50%;
+  }
 }
 </style>

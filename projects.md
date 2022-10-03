@@ -1,7 +1,7 @@
 ---
 title: Projects
 subtitle: A small collection of software projects developed during my college and high school, and some middle school days.
-img_path: images/p/np-8.jpg
+img_path: images/me/projects.jpg
 layout: page
 ---
 
@@ -169,6 +169,9 @@ div.post-content img {
     border-style: solid; 
     border-color: gray; 
     border-width: 1px;
+}
+.site-header-bg {
+  background-position: 30% 40%;
 }
 
 </style>

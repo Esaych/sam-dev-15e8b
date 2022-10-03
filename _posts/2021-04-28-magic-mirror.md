@@ -221,21 +221,22 @@ Remote Compliment module and gift one to your significant other as well.
 - If the above are fixed, gift it to a special someone who may appreciate it
 
 <style>
-
-img[alt="mirror"] {
-  width: 80%;
-  margin-left:10%;
-}
-img[alt="peace love and happiness club"] {
-  width: 80%;
-  margin-left:10%;
-}
-img[alt="sketch plans"] {
-  width: 50%;
-  margin-left:25%;
-}
-img[alt="dead laptop"] {
-  width: 60%;
-  margin-left:20%;
+@media screen and (min-width: 800px) {
+  img[alt="mirror"] {
+    width: 80%;
+    margin-left:10%;
+  }
+  img[alt="peace love and happiness club"] {
+    width: 80%;
+    margin-left:10%;
+  }
+  img[alt="sketch plans"] {
+    width: 50%;
+    margin-left:25%;
+  }
+  img[alt="dead laptop"] {
+    width: 60%;
+    margin-left:20%;
+  }
 }
 </style>

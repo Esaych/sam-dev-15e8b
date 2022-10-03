@@ -185,41 +185,42 @@ very calming in the evenings.
 _sneak \_peek_: I* also made the lights synchronize to our sound system, but [that's another post](/posts/music-wood-sculpture/)!*
 
 <style>
-img[alt="stripped clean"] {
-  width: 50%;
+@media screen and (min-width: 800px) {
+  img[alt="stripped clean"] {
+    width: 50%;
+  }
+  img[alt="stained wood"] {
+    width: 50%;
+  }
+  img[alt="broken"] {
+    float: left;
+    padding-right: 10px
+  }
+  img[alt="initial wiring"] {
+    width: 46.6%;
+    float: left;
+    margin-right: 10px;
+  }
+  img[alt="base wiring"] {
+    width: 45%;
+  }
+  img[alt="wiring guide"] {
+    width: 45%;
+    float: left;
+    padding-right: 10px
+  }
+  img[alt="wiring guide"] {
+    width: 30%;
+  }
+  img[alt="new wiring"] {
+    width: 65%;
+  }
+  img[alt="blue weather"] {
+    width: 50%;
+    float: left;
+  }
+  img[alt="purple weather"] {
+    width: 50%;
+  }
 }
-img[alt="stained wood"] {
-  width: 50%;
-}
-img[alt="broken"] {
-  float: left;
-  padding-right: 10px
-}
-img[alt="initial wiring"] {
-  width: 46.6%;
-  float: left;
-  margin-right: 10px;
-}
-img[alt="base wiring"] {
-  width: 45%;
-}
-img[alt="wiring guide"] {
-  width: 45%;
-  float: left;
-  padding-right: 10px
-}
-img[alt="wiring guide"] {
-  width: 30%;
-}
-img[alt="new wiring"] {
-  width: 65%;
-}
-img[alt="blue weather"] {
-  width: 50%;
-  float: left;
-}
-img[alt="purple weather"] {
-  width: 50%;
-}
-
 </style>
