@@ -1,5 +1,5 @@
 ---
-redirect: https://www.amazon.com/hz/wishlist/ls/
-redirect_key: 284715OW0JQIP?ref_=wl_share
+redirect: https://tattered-typhoon-5b4.notion.site/
+redirect_key: Sam-s-Christmas-Wishlist-6703574b39aa4732bbe2ebfc9f6c1ad6
 layout: redirect
 ---
